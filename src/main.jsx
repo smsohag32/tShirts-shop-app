@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Home from "./components/Home/Home";
+import loadData from "./loadData";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -12,10 +13,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () =>
-          fetch(
-            `https://raw.githubusercontent.com/ProgrammingHero1/t-shirt-data/main/tshirt.json`
-          ),
+        loader: loadData,
       },
     ],
   },

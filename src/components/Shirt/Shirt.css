@@ -1,0 +1,12 @@
+.product{
+    border: 1px solid blueviolet;
+    text-align: center;
+    padding: 10px 8px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.product img{
+    width: 250px;
+}
