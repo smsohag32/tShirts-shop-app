@@ -2,4 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 22px;
+    flex-basis: 80%;
+    
+}
+.home-container{
+    display: flex;
+    gap: 50px;
+
 }

@@ -1,0 +1,6 @@
+.carts-container{
+     margin-top: 50px;
+    height: auto;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
