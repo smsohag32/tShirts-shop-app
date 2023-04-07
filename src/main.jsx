@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App";
 import Home from "./components/Home/Home";
 import loadData from "./loadData";
+import Grandpa from "./components/Grandpa/Grandpa";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
         loader: loadData,
+      },
+      {
+        path: "grandpa",
+        element: <Grandpa></Grandpa>,
       },
     ],
   },

@@ -1,0 +1,9 @@
+.nav-bar{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.nav-bar a{
+    color: red;
+}
