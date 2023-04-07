@@ -1,13 +1,13 @@
 import React from "react";
 import Myself from "./Myself";
 
-const Fathar = () => {
+const Fathar = ({ ring }) => {
   return (
     <div>
       <p>Father</p>
-      <section>
+      <section className="flex">
         <div>
-          <Myself />
+          <Myself ring={ring} />
         </div>
       </section>
     </div>

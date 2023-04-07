@@ -1,10 +1,11 @@
 import React from "react";
+import Friend from "../Friend/Friend";
 
-const Cousin = () => {
+const Cousin = ({ ring, isFriend }) => {
   return (
     <div>
       <p>Cousin</p>
-      <section></section>
+      <section className="flex">{isFriend && <Friend>Fahrin</Friend>}</section>
     </div>
   );
 };

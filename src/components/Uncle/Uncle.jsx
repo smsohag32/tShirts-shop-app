@@ -5,8 +5,8 @@ const Uncle = () => {
   return (
     <div>
       <p>Uncle</p>
-      <section>
-        <Cousin />
+      <section className="flex">
+        <Cousin isFriend={true} />
       </section>
     </div>
   );

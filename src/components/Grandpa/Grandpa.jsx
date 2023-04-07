@@ -4,12 +4,13 @@ import "./Grandpa.css";
 import Fathar from "../Fathar/Fathar";
 import Aunty from "./Aunty";
 const Grandpa = () => {
+  const ring = "dimond";
   return (
     <div className="grandpa">
       <p>Grandpa</p>
       <section className="flex">
         <Uncle />
-        <Fathar />
+        <Fathar ring={ring} />
         <Aunty />
       </section>
     </div>
